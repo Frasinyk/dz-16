@@ -1,0 +1,1 @@
+{"uuid":"812e057e-c2dc-4414-80dd-c9bf4d899add","name":"lesson_33.ApiTest.setup","children":["927a621a-303d-45ec-a408-88100d2f8fc3"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1726142179032,"stop":1726142179032}],"afters":[],"start":1726142179032,"stop":1726142179032}
