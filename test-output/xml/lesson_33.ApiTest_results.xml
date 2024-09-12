@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dz-16"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11,948">
+    <properties></properties>
+
+
+
+            <testcase
+                name="editLastName"
+                time="0,761"
+                classname="lesson_33.ApiTest">
+            </testcase>
+            <testcase
+                name="editTotalPrice"
+                time="0,704"
+                classname="lesson_33.ApiTest">
+            </testcase>
+            <testcase
+                name="getAllBooking"
+                time="1,416"
+                classname="lesson_33.ApiTest">
+            </testcase>
+            <testcase
+                name="deleteBooking"
+                time="6,885"
+                classname="lesson_33.ApiTest">
+            </testcase>
+            <testcase
+                name="createBooking"
+                time="0,702"
+                classname="lesson_33.ApiTest">
+            </testcase>
+            <testcase
+                name="getUserData"
+                time="1,480"
+                classname="lesson_33.ApiTest">
+            </testcase>
+</testsuite>
