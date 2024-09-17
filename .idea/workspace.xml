@@ -4,26 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8533659f-f437-4f3e-a4c6-c7722e7e5935" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/allure.properties " afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_33/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_33/BookModelRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_33/BookingDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_33/BookingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/html/reportng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/html/reportng.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/xml/lesson_33.ApiTest_results.xml" afterDir="false" />
+    <list default="true" id="8533659f-f437-4f3e-a4c6-c7722e7e5935" name="Changes" comment="dz-13 data base">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DataBaseTests/SelectMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_24/DataBaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_24/PropertyFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_24/TestDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_24/models/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_24/models/Teachers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/allure.properties " beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -56,15 +49,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/oksanafrasynuyk/Documents/qaCourses/dz-16/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/oksanafrasynuyk/Documents/qaCourses/dz-16/src&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -77,17 +70,17 @@
       <recent name="lesson_32" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ApiTest">
-    <configuration name="ApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestDB">
+    <configuration name="TestDB" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_33.*" />
+          <option name="PATTERN" value="lesson_24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson_33" />
-      <option name="MAIN_CLASS_NAME" value="lesson_33.ApiTest" />
+      <option name="PACKAGE_NAME" value="lesson_24" />
+      <option name="MAIN_CLASS_NAME" value="lesson_24.TestDB" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -95,17 +88,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.createBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDB.deleteStudent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_33.*" />
+          <option name="PATTERN" value="lesson_24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson_33" />
-      <option name="MAIN_CLASS_NAME" value="lesson_33.ApiTest" />
-      <option name="METHOD_NAME" value="createBooking" />
+      <option name="PACKAGE_NAME" value="lesson_24" />
+      <option name="MAIN_CLASS_NAME" value="lesson_24.TestDB" />
+      <option name="METHOD_NAME" value="deleteStudent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,17 +106,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.editTotalPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDB.editStudent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_33.*" />
+          <option name="PATTERN" value="lesson_24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson_33" />
-      <option name="MAIN_CLASS_NAME" value="lesson_33.ApiTest" />
-      <option name="METHOD_NAME" value="editTotalPrice" />
+      <option name="PACKAGE_NAME" value="lesson_24" />
+      <option name="MAIN_CLASS_NAME" value="lesson_24.TestDB" />
+      <option name="METHOD_NAME" value="editStudent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,17 +124,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.getAllBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDB.getStudents" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson_33.*" />
+          <option name="PATTERN" value="lesson_24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson_33" />
-      <option name="MAIN_CLASS_NAME" value="lesson_33.ApiTest" />
-      <option name="METHOD_NAME" value="getAllBooking" />
+      <option name="PACKAGE_NAME" value="lesson_24" />
+      <option name="MAIN_CLASS_NAME" value="lesson_24.TestDB" />
+      <option name="METHOD_NAME" value="getStudents" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,10 +142,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/oksanafrasynuyk/Documents/qaCourses/dz-16/src/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDB.showStudentByID" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rd" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson_24" />
+      <option name="MAIN_CLASS_NAME" value="lesson_24.TestDB" />
+      <option name="METHOD_NAME" value="showStudentByID" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ApiTest" />
-        <item itemvalue="TestNG./Users/oksanafrasynuyk/Documents/qaCourses/dz-16/src/resources/testng.xml" />
-        <item itemvalue="TestNG.ApiTest.createBooking" />
-        <item itemvalue="TestNG.ApiTest.editTotalPrice" />
-        <item itemvalue="TestNG.ApiTest.getAllBooking" />
+        <item itemvalue="TestNG.TestDB" />
+        <item itemvalue="TestNG.TestDB.showStudentByID" />
+        <item itemvalue="TestNG.TestDB.getStudents" />
+        <item itemvalue="TestNG.TestDB.deleteStudent" />
+        <item itemvalue="TestNG.TestDB.editStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -178,15 +179,52 @@
       <option name="presentableId" value="Default" />
       <updated>1725974816085</updated>
     </task>
+    <task id="LOCAL-00001" summary="dz-16">
+      <created>1726142327300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726142327300</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dz-16">
+      <created>1726142368170</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726142368170</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dz-16" />
+    <MESSAGE value="dz-13 data base" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz-13 data base" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/lesson_33/ApiTest.java</url>
-          <line>124</line>
+          <line>121</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/lesson_24/TestDB.java</url>
+          <line>21</line>
+          <properties field="DELETE" class="lesson_24.TestDB" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
